@@ -54,6 +54,9 @@ test("the storefront and live guide share the chosen brand and ethical copy", as
   await expect(page.locator(".styling-tip")).toContainText(
     "try a muted-color coat, jacket, or zip-up",
   );
+  const storyCopy =
+    "We believe the person wearing the shirt should stand out, not the shirt. A simple T-shirt gives you room to express who you are without distraction.";
+  await expect(page.locator(".brand-story-copy")).toHaveText(storyCopy);
 
   await page.goto("/styleguide.html");
   await expect(page.locator(".brand-link .wordmark")).toHaveAttribute(
@@ -66,6 +69,7 @@ test("the storefront and live guide share the chosen brand and ethical copy", as
   await expect(page.locator(".voice-grid")).toContainText(
     "try a muted-color coat, jacket, or zip-up",
   );
+  await expect(page.locator(".voice-grid")).toContainText(storyCopy);
   await expect(page.locator('[data-color-token="--color-lilac"]')).toHaveText(
     "#c9c4d6",
   );
