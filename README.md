@@ -2,9 +2,9 @@
 
 **The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
 
-This template starts with a working, deliberately neutral storefront. Your audience, name, promise, logo, voice, and visual direction are **not chosen yet**. You make the decisions; the agent helps you explore, build, check, and revise them.
+This project began as a working, deliberately neutral storefront. The audience, name, promise, logo, voice, and visual direction were developed through BRAND-001; [SPEC.md](SPEC.md) records the current decisions. The learner makes the choices; the agent helps explore, build, check, and revise them.
 
-**Current project status:** BRAND-001 is implemented and checked on its feature branch. It is not merged or published.
+**Current project status:** BRAND-001 is implemented, checked, and merged into `main`. The site is not published.
 
 **A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
 

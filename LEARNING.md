@@ -2,7 +2,7 @@
 
 AI-drafted task evidence, not a transcript or grade. This file may be public: review, correct or remove excerpts before commit/push. Use short actual quotes or labeled paraphrases and disclose help. Approval alone is not an explanation; leave missing evidence pending.
 
-- **Feature:** BRAND-001 — scope and brand choices agreed; learner chose to keep the visual slice as shown. Handoff is in progress; merge and publication have not happened.
+- **Feature:** BRAND-001 — learner chose to keep the visual slice as shown; PR #2 is merged into `main`. The site is not published.
 - **Date:** 2026-11-03
 - **Conversation context available:** This conversation; no earlier learner contributions available here
 - **Review status:** Learner confirmed the updated summary is accurate. Missing learning evidence remains pending.
@@ -26,6 +26,6 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 ## AI work and evidence links
 
 - **Work performed by AI:** Verified the repository and setup, created the branch and issue, researched and visually inspected two V&A references, built and checked paired hero explorations, and drafted the approved one-color SVG wordmark. Implemented the current identity on the storefront, live style guide, and studio header.
-- **SPEC, issue/PR, actual checks and artifacts:** [SPEC.md](SPEC.md); [Issue #1](https://github.com/XimenaMacavilca12/is117-brand-studio/issues/1); [modernist preview](public/explorations/modernist.html); [postmodernist preview](public/explorations/postmodernist.html); [logo proposal](public/explorations/logo-proposal.html); [storefront](public/index.html); [live style guide](public/styleguide.html). `npm run check` passed, including 7 server tests and 11 Chromium browser tests. The added brand-sharing test checked the common logo path, hero and styling-tip text on both pages, and the guide's live `--color-lilac` value. Agent browser inspection at 1280×900 and 375×812 found no horizontal overflow and loaded images on the storefront, guide, and studio overview; the paired explorations retained matching copy and loaded images at both widths. Learner reports the page is not too bold, the keyboard add worked, and the narrow layout fits; these are personal observations, not customer research.
+- **SPEC, issue/PR, actual checks and artifacts:** [SPEC.md](SPEC.md); [Issue #1](https://github.com/XimenaMacavilca12/is117-brand-studio/issues/1); [PR #2](https://github.com/XimenaMacavilca12/is117-brand-studio/pull/2); [modernist preview](public/explorations/modernist.html); [postmodernist preview](public/explorations/postmodernist.html); [logo proposal](public/explorations/logo-proposal.html); [storefront](public/index.html); [live style guide](public/styleguide.html). `npm run check` passed, including 7 server tests and 11 Chromium browser tests. The added brand-sharing test checked the common logo path, hero and styling-tip text on both pages, and the guide's live `--color-lilac` value. Agent browser inspection at 1280×900 and 375×812 found no horizontal overflow and loaded images on the storefront, guide, and studio overview; the paired explorations retained matching copy and loaded images at both widths. Learner reports the page is not too bold, the keyboard add worked, and the narrow layout fits; these are personal observations, not customer research.
 
-**Next step:** Review this short record for accuracy or removals before any publishable commit.
+**Next step:** BRAND-001 is kept; an optional follow-up has not been chosen.

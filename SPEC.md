@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: BRAND-001 implementation in progress.
+- Stage: BRAND-001 kept; merged into `main` by [PR #2](https://github.com/XimenaMacavilca12/is117-brand-studio/pull/2).
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Scope, brand direction, wordmark, and two ethical page applications agreed; learner chose to keep the visual slice as shown.
-- Next step: Review the feature PR; no merge or publication yet.
+- Status: Scope, brand direction, wordmark, and two ethical page applications agreed; learner chose to keep the visual slice as shown. Merge is verified; the site is not published.
+- Next step: Optionally choose one small follow-up improvement and the visitor need it serves.
 
 ## Product boundary
 
