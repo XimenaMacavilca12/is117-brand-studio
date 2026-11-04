@@ -9,7 +9,7 @@ This is the durable agreement between the learner and agent. Keep it concise and
 - Stage: BRAND-001 kept; merged into `main` by [PR #2](https://github.com/XimenaMacavilca12/is117-brand-studio/pull/2).
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
 - Status: Scope, brand direction, wordmark, and two ethical page applications agreed; learner chose to keep the visual slice as shown. Merge is verified; the site is not published.
-- Next step: Optionally choose one small follow-up improvement and the visitor need it serves.
+- Next step: Confirm whether the learner's wearer-first idea should become a short brand story; scope is not yet agreed.
 
 ## Product boundary
 
@@ -88,4 +88,4 @@ Write a short result and link only evidence that exists. A passing browser check
 
 ## Later
 
-No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perhaps a brand story, a supported fit guide, or richer demo-bag behavior. Agree its scope and add one new spec ID at that time.
+Potential follow-up, not scoped: a short brand story explaining that the wearer, not the shirt, should stand out and that a simple tee can leave room for self-expression. The learner's idea followed AI's example of a brand story. Agree its scope and add a new spec ID before implementation.
