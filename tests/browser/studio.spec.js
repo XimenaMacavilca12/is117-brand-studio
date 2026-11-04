@@ -36,6 +36,41 @@ test("positive: a shopper can choose sizes, add items, and empty the demo bag", 
   await expect(page.locator("#bag-count")).toHaveText("0");
 });
 
+test("the storefront and live guide share the chosen brand and ethical copy", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await expect(page).toHaveTitle("Consistency — Quiet style, your way");
+  await expect(page.locator(".brand-link .wordmark")).toHaveAttribute(
+    "src",
+    "assets/consistency-wordmark.svg",
+  );
+  await expect(
+    page.getByRole("heading", { name: "Quiet style, your way." }),
+  ).toBeVisible();
+  await expect(page.locator(".product-intro")).toContainText(
+    "For coffee catch-ups, dates, and regular days",
+  );
+  await expect(page.locator(".styling-tip")).toContainText(
+    "try a muted-color coat, jacket, or zip-up",
+  );
+
+  await page.goto("/styleguide.html");
+  await expect(page.locator(".brand-link .wordmark")).toHaveAttribute(
+    "src",
+    "assets/consistency-wordmark.svg",
+  );
+  await expect(page.locator(".voice-grid")).toContainText(
+    "For coffee catch-ups, dates, and regular days",
+  );
+  await expect(page.locator(".voice-grid")).toContainText(
+    "try a muted-color coat, jacket, or zip-up",
+  );
+  await expect(page.locator('[data-color-token="--color-lilac"]')).toHaveText(
+    "#c9c4d6",
+  );
+});
+
 test("keyboard: the skip link reaches main and the size controls work without a mouse", async ({
   page,
 }) => {

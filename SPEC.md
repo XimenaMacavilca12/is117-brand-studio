@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Baseline ready to try; brand decisions pending.
+- Stage: BRAND-001 implementation in progress.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Pending learner scope agreement.
-- Next small decision: Confirm the first slice after trying the neutral storefront.
+- Status: Scope, brand direction, wordmark, and two ethical page applications agreed; learner chose to keep the visual slice as shown.
+- Next step: Review the feature PR; no merge or publication yet.
 
 ## Product boundary
 
@@ -19,24 +19,24 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
 
-| Tiny card                             | Primary audience          | Secondary audience        |
-| ------------------------------------- | ------------------------- | ------------------------- |
-| Person in a concrete situation        | Not chosen yet            | Not chosen yet            |
-| Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
-| Concern before choosing               | Not chosen yet            | Not chosen yet            |
-| What the page should help them decide | Not chosen yet            | Not chosen yet            |
-| Evidence or assumption                | Assumption; not validated | Assumption; not validated |
+| Tiny card                             | Primary audience                                                                | Secondary audience                                  |
+| ------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Person in a concrete situation        | Someone choosing what to wear day to day                                        | Not chosen yet                                      |
+| Goal or meaning they seek             | Fashionable everyday clothes in plain, solid colors without words               | Wants a simple tee to feel more expressive          |
+| Concern before choosing               | Avoiding bold statements and text                                               | Not chosen yet                                      |
+| What the page should help them decide | Whether this white tee fits their simple everyday style (provisional inference) | Not chosen yet                                      |
+| Evidence or assumption                | Learner's stated preference; audience assumption, not validated                 | Learner approved an AI-proposed need; not validated |
 
 ## Early brand brief
 
-| Decision                                 | Agreement      |
-| ---------------------------------------- | -------------- |
-| Brand name                               | Not chosen yet |
-| One-sentence promise                     | Not chosen yet |
-| Primary archetype: the brand's character | Not chosen yet |
-| Three voice traits                       | Not chosen yet |
-| One example line in this voice           | Not chosen yet |
-| Learner's predicted audience effect      | Not chosen yet |
+| Decision                                 | Agreement                                                                                                    |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Brand name                               | Consistency                                                                                                  |
+| One-sentence promise                     | Simple everyday style with a relaxed, personal feel.                                                         |
+| Primary archetype: the brand's character | Everyman                                                                                                     |
+| Three voice traits                       | Relaxed, approachable, understated                                                                           |
+| One example line in this voice           | Quiet style, your way.                                                                                       |
+| Learner's predicted audience effect      | Agreed with AI example: the page could make a plain tee feel fashionable without a bold statement (assisted) |
 
 ## Visual decision
 
@@ -44,25 +44,25 @@ Compare two small hero previews before building the whole page. Hold the product
 
 A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
 
-| Item                                              | Agreement or evidence |
-| ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Not chosen yet        |
-| Modernist preview, reference, and annotations     | Not chosen yet        |
-| Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Not chosen yet        |
-| Original SVG logo                                 | Not chosen yet        |
-| Monochrome and small-size variants                | Not chosen yet        |
-| Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Not chosen yet        |
+| Item                                              | Agreement or evidence                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Shared headline / support / action                | Headline: “Quiet style, your way.” Support: “A plain white T-shirt for a relaxed, everyday look.” Action: “Choose a size.” Both show the same white tee and fictional $28 USD demo price.                                                                                                                                                                                                                                                    |
+| Modernist preview, reference, and annotations     | [Modernist preview](public/explorations/modernist.html). V&A: Dell-Lampe Type K, designed by Christian Dell, made by Zimmermann GmbH, 1929, Museum no. M.27-1992 ([source](https://www.vam.ac.uk/articles/what-was-modernism)). Inspected black metal shade, stem, and round base. Grid, clear type hierarchy, restrained palette. Hypothesis: orderly layout makes the plain tee feel deliberate; risk: clinical or anonymous.              |
+| Postmodernist preview, reference, and annotations | [Postmodernist preview](public/explorations/postmodernist.html). V&A: Super lamp prototype, designed by Martine Bedin for Memphis, made by Fausto Celati, 1981, Museum no. M.1-2011 ([source](https://www.vam.ac.uk/articles/what-is-postmodernism)). Inspected blue wheeled housing and colored bulb forms. Offset panels, repeated circles, layered visual cues. Hypothesis: framing makes the tee feel personal; risk: may feel too loud. |
+| Chosen direction and reason                       | Keep the postmodernist direction. Learner pointed to “the different shades of color”; the audience effect of that detail was not further explained.                                                                                                                                                                                                                                                                                          |
+| Original SVG logo                                 | [Consistency wordmark](public/assets/consistency-wordmark.svg), accepted from the review proposal and now shared by the storefront, style guide, and studio header.                                                                                                                                                                                                                                                                          |
+| Monochrome and small-size variants                | One-ink artwork; rendered at 150px desktop and 130px narrow navigation width, and at larger sizes in the [logo proposal preview](public/explorations/logo-proposal.html).                                                                                                                                                                                                                                                                    |
+| Logo review at actual use size                    | Learner approved keeping the proposal and said it is “one word that isnt too loud but makes a statement at the sametime.” Visitor benefit still needs a clearer connection.                                                                                                                                                                                                                                                                  |
+| Shared palette, typography, spacing, and assets   | Current AI implementation proposal in [shared styles](public/styles.css): warm paper, deep blue, soft gold, muted coral, lilac, and sage; Georgia display type with system body text. Storefront, live guide, and studio overview share the tokens and wordmark. The learner chose the different-shades direction; exact hues and font choices were not separately selected.                                                                 |
 
 ## Ethical persuasion
 
 Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
 
-| Principle      | Actual copy or interaction | Visitor benefit / factual support |
-| -------------- | -------------------------- | --------------------------------- |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
+| Principle   | Actual copy or interaction                                                                                                                                                      | Visitor benefit / factual support                                                                                                                                 |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reciprocity | Free styling idea: “For coffee or a date, try a muted-color coat, jacket, or zip-up. A simple layer can keep the shirt from distracting and let the conversation be about you.” | Learner proposed muted layering and explained that the shirt should not distract, so the wearer and conversation stay the focus. No purchase or sign-up required. |
+| Liking      | “For coffee catch-ups, dates, and regular days—keep it simple, keep it you.”                                                                                                    | Learner explained it as “love yourself and let you be the topic.” Reuses the stated occasions without testimonials or popularity claims.                          |
 
 ## BRAND-001 — first branded storefront and live style guide
 
@@ -82,9 +82,9 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| Spec ID   | Files                                                                                                                                                                                                             | Issue / PR                                                                   | Actual checks and observations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| BRAND-001 | [Storefront](public/index.html), [live style guide](public/styleguide.html), [studio overview](public/studio.html), [hero explorations](public/explorations/), [wordmark](public/assets/consistency-wordmark.svg) | [Issue #1](https://github.com/XimenaMacavilca12/is117-brand-studio/issues/1) | `npm run check` passed: formatting/lint, 7 server tests, and 11 Chromium browser tests. The new browser test loads the storefront and guide, checks the shared logo, approved hero and styling-tip copy, and reads the lilac CSS token as `#c9c4d6`. Agent checked all three pages at 1280×900 and 375×812: images loaded, no horizontal overflow, Georgia display type and shared logo rendered (150px desktop, 130px narrow). Both hero explorations still have identical copy and loaded shirt images at both widths. Learner's first impression: likes the page and says it is not too bold or saying too much. Learner reports the keyboard path adds an item to the demo bag and that the narrow page “fits just right.” |
 
 ## Later
 

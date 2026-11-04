@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 52" role="img" aria-labelledby="title description">
+  <title id="title">Consistency wordmark</title>
+  <desc id="description">A single-color wordmark with three repeated, offset blocks beside the name Consistency.</desc>
+  <g fill="#15234b">
+    <path d="M4 13h9v9H4zM15 8h9v9h-9zM26 3h9v9h-9z"/>
+    <text x="43" y="39" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-style="italic" font-weight="700" letter-spacing="-1.8">Consistency</text>
+  </g>
+</svg>

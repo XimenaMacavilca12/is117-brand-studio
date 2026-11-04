@@ -1,18 +1,19 @@
-/* Shared brand tokens. Change these after you agree on your brand direction.
-   Both the storefront and the live style guide use this file. */
+/* Shared brand tokens used by the storefront, style guide, and studio overview. */
 :root {
-  --color-paper: #f6f5f0;
-  --color-ink: #171a18;
-  --color-muted: #5a615b;
-  --color-line: #d1d5cc;
-  --color-accent: #e3ef56;
-  --color-soft: #e8eae1;
+  --color-paper: #f7f4ed;
+  --color-ink: #15234b;
+  --color-muted: #4f5267;
+  --color-line: #d4d0c8;
+  --color-accent: #ddd1a9;
+  --color-soft: #e9e3dc;
+  --color-lilac: #c9c4d6;
+  --color-coral: #d7b1a7;
+  --color-sage: #c7d0bc;
   --color-white: #fff;
   --color-danger: #992e28;
   --font-body:
     system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
-  --font-display:
-    system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+  --font-display: georgia, "Times New Roman", serif;
   --font-mono: ui-monospace, sfmono-regular, consolas, monospace;
   --space-1: 0.5rem;
   --space-2: 1rem;
@@ -264,12 +265,42 @@ p + p {
 
 .product-visual {
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
   background: var(--color-soft);
+}
+
+.product-visual::before,
+.product-visual::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.product-visual::before {
+  inset: 12% 9% auto auto;
+  width: 58%;
+  aspect-ratio: 1.15;
+  background: var(--color-lilac);
+  transform: rotate(7deg);
+}
+
+.product-visual::after {
+  top: 29%;
+  left: 10%;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--color-coral);
+  box-shadow:
+    1.2rem 1.2rem 0 var(--color-sage),
+    2.4rem 2.4rem 0 var(--color-accent);
 }
 
 .visual-label {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   inset: 1.3rem 1.4rem auto;
   display: flex;
   justify-content: space-between;
@@ -282,6 +313,8 @@ p + p {
   height: auto;
   aspect-ratio: 800 / 880;
   object-fit: contain;
+  position: relative;
+  z-index: 1;
 }
 
 .image-caption {
@@ -481,6 +514,24 @@ legend {
   color: var(--color-muted);
   margin-top: 0.9rem;
   max-width: 420px;
+}
+
+.styling-tip {
+  margin-top: 1.5rem;
+  padding: 1.2rem 1.35rem;
+  border-inline-start: 4px solid var(--color-coral);
+  background: var(--color-soft);
+}
+
+.styling-tip h2 {
+  margin-top: 0.6rem;
+  font-size: 1.35rem;
+  letter-spacing: -0.035em;
+}
+
+.styling-tip :where(p:not(.eyebrow)) {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
 }
 
 .product-facts {
@@ -785,7 +836,7 @@ legend {
 
 .palette-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.65rem;
 }
 
@@ -1178,7 +1229,7 @@ legend {
   }
 
   .palette-grid {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .color-swatch {
