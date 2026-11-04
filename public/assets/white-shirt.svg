@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" role="img" aria-labelledby="title description">
   <title id="title">Plain white T-shirt</title>
-  <desc id="description">Illustration of an unbranded white short-sleeved T-shirt on a neutral background.</desc>
+  <desc id="description">Illustration of an unbranded white short-sleeved T-shirt on a transparent background.</desc>
   <defs>
     <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#eeeee9"/>
@@ -16,7 +16,6 @@
       <feDropShadow dx="0" dy="23" stdDeviation="20" flood-color="#333b2e" flood-opacity=".10"/>
     </filter>
   </defs>
-  <rect width="800" height="880" fill="#e8eae1"/>
   <ellipse cx="400" cy="744" rx="203" ry="23" fill="#d5d9cd" opacity=".6"/>
   <g filter="url(#shadow)">
     <path d="M310 144 232 178 110 305 205 394 253 350 248 713Q397 746 552 713L547 350 595 394 690 305 568 178 490 144Q454 185 400 185T310 144Z" fill="url(#fabric)" stroke="#daddd6" stroke-width="2" stroke-linejoin="round"/>
