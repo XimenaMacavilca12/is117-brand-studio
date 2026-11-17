@@ -4,7 +4,7 @@
 
 This project began as a working, deliberately neutral storefront. The audience, name, promise, logo, voice, and visual direction were developed through BRAND-001; [SPEC.md](SPEC.md) records the current decisions. The learner makes the choices; the agent helps explore, build, check, and revise them.
 
-**Current project status:** BRAND-001 is implemented, checked, and merged into `main`. The site is not published.
+**Current project status:** BRAND-001 is implemented, checked, and merged into `main`. The research documentation draft is available locally at `research.html`; source verification and peer review are pending. Publication has not been verified.
 
 **A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
 
@@ -67,6 +67,10 @@ You work at your own pace. There is no required class demonstration, quiz, separ
 | [docs/reference.md](docs/reference.md) | Short explanations and source links to use when needed                                                     |
 
 The README is the authoritative startup path. The online overview introduces the exercise; it does not replace your local project or chat.
+
+## Research documentation
+
+Open `http://127.0.0.1:5173/research.html` after starting the server. This IS117-007 draft reuses the existing identity and audience record. It includes space for three dated original sources, two provisional positioning lenses, audience hypotheses, a finding-to-decision trail, and peer feedback. Pending fields are not completed research. Publish the existing `public/` directory through the GitHub Pages workflow below; the research page will be included.
 
 ## Prepared checks
 

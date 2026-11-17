@@ -1,0 +1,65 @@
+.research-stack {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.research-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.research-card {
+  border: 1px solid var(--line, #d6d1c9);
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.research-card h3,
+.research-note h3 {
+  margin-block: 0 1rem;
+}
+
+.research-card p + p {
+  margin-top: 1rem;
+}
+
+.research-facts {
+  margin: 1.5rem 0 0;
+}
+
+.research-facts dt {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.research-facts dd {
+  margin: 0.35rem 0 0;
+}
+
+.research-wide {
+  grid-column: 1 / -1;
+}
+
+.research-note {
+  padding: 1.5rem;
+  background: #e9e3dc;
+  border-left: 3px solid #15234b;
+}
+
+.research-note p + p {
+  margin-top: 1rem;
+}
+
+.research-steps {
+  padding-left: 1.4rem;
+}
+
+.research-steps li + li {
+  margin-top: 1rem;
+}
+
+@media (width <= 700px) {
+  .research-columns {
+    grid-template-columns: 1fr;
+  }
+}
