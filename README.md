@@ -4,7 +4,7 @@
 
 This project began as a working, deliberately neutral storefront. The audience, name, promise, logo, voice, and visual direction were developed through BRAND-001; [SPEC.md](SPEC.md) records the current decisions. The learner makes the choices; the agent helps explore, build, check, and revise them.
 
-**Current project status:** BRAND-001 is implemented, checked, and merged into `main`. The [published Research page](https://ximenamacavilca12.github.io/is117-brand-studio/research.html) is available. The next documentation change compares Zara, Uniqlo, and Target using original product pages and inspected images; learner decisions and peer review remain pending.
+**Current project status:** BRAND-001 is implemented, checked, and merged into `main`. The [published Research page](https://ximenamacavilca12.github.io/is117-brand-studio/research.html) is available. The research compares how Zara, Uniqlo, and Target present plain white T-shirts. Peer review is still pending.
 
 **A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
 
@@ -70,7 +70,7 @@ The README is the authoritative startup path. The online overview introduces the
 
 ## Research documentation
 
-Open `http://127.0.0.1:5173/research.html` after starting the server. This IS117-007 draft reuses the existing identity and audience record. It includes space for three dated original sources, two provisional positioning lenses, audience hypotheses, a finding-to-decision trail, and peer feedback. The comparison distinguishes observations, AI interpretations, and planned checks. Peer-review fields remain pending. Publish the existing `public/` directory through the GitHub Pages workflow below; the research page will be included.
+Open `http://127.0.0.1:5173/research.html` after starting the server. This IS117-007 page compares Zara, Uniqlo, and Target using linked sources and dates. It covers two possible brand directions, audience assumptions, findings, and a proposed design change. Planned checks are separate from observed results. Publish the existing `public/` directory through the GitHub Pages workflow below; the research page will be included.
 
 ## Prepared checks
 
